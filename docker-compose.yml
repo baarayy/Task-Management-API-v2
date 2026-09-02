@@ -89,8 +89,17 @@ services:
       target: runtime
     container_name: tm-worker
     command: ['node', 'dist/worker.js']
+    # The image's healthcheck targets the API's port; the worker serves its own
+    # liveness endpoint on PORT+1 (it reports broker-consumer state too).
+    healthcheck:
+      test: ['CMD', 'curl', '-fsS', 'http://localhost:3001/health']
+      interval: 30s
+      timeout: 5s
+      start_period: 20s
+      retries: 3
     environment:
       NODE_ENV: production
+      PORT: 3000
       MONGO_URI: mongodb://mongo:27017/task_management?replicaSet=rs0&directConnection=true
       REDIS_URL: redis://redis:6379
       RABBITMQ_URL: amqp://guest:guest@rabbitmq:5672
