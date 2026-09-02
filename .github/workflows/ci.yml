@@ -70,8 +70,13 @@ jobs:
       # Fails the build on a high or critical advisory; moderate findings are
       # reported without blocking, so routine noise cannot stall a release.
       - run: npm audit --audit-level=high
+      # The action tags are `v`-prefixed, and each one hard-codes the Trivy
+      # version it installs. Aqua prunes old Trivy releases, so an action tag
+      # whose default Trivy version has been pruned fails at install time - the
+      # reason v0.33.1 (Trivy v0.65.0, no longer published) could not run. Keep
+      # this tag reasonably current for that reason, not just for features.
       - name: Scan filesystem for vulnerabilities
-        uses: aquasecurity/trivy-action@0.28.0
+        uses: aquasecurity/trivy-action@v0.36.0
         with:
           scan-type: fs
           scan-ref: .
