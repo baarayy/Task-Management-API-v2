@@ -1,0 +1,50 @@
+[
+  {
+    "_id": "650000000000000000000001",
+    "email": "admin@taskflow.dev",
+    "name": "Amara Okafor",
+    "role": "admin",
+    "password": "AdminPass123",
+    "isActive": true
+  },
+  {
+    "_id": "650000000000000000000002",
+    "email": "manager@taskflow.dev",
+    "name": "Ravi Chandran",
+    "role": "manager",
+    "password": "ManagerPass123",
+    "isActive": true
+  },
+  {
+    "_id": "650000000000000000000003",
+    "email": "dev1@taskflow.dev",
+    "name": "Lena Fischer",
+    "role": "user",
+    "password": "UserPass123",
+    "isActive": true
+  },
+  {
+    "_id": "650000000000000000000004",
+    "email": "dev2@taskflow.dev",
+    "name": "Tomas Alvarez",
+    "role": "user",
+    "password": "UserPass123",
+    "isActive": true
+  },
+  {
+    "_id": "650000000000000000000005",
+    "email": "qa@taskflow.dev",
+    "name": "Priya Nair",
+    "role": "user",
+    "password": "UserPass123",
+    "isActive": true
+  },
+  {
+    "_id": "650000000000000000000006",
+    "email": "inactive@taskflow.dev",
+    "name": "Former Employee",
+    "role": "user",
+    "password": "UserPass123",
+    "isActive": false
+  }
+]

@@ -1,0 +1,377 @@
+[
+  {
+    "_id": "650000000000000000005000",
+    "userId": "650000000000000000000003",
+    "type": "task_assigned",
+    "taskId": "650000000000000000001000",
+    "actorId": "650000000000000000000001",
+    "title": "You were assigned to a task",
+    "payload": {
+      "title": "Implement refresh token rotation"
+    },
+    "readAt": "2026-08-02T09:00:00.000Z",
+    "expiresAt": "2026-09-01T09:00:00.000Z",
+    "createdAt": "2026-08-01T09:00:00.000Z",
+    "updatedAt": "2026-08-01T09:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000005001",
+    "userId": "650000000000000000000004",
+    "type": "task_assigned",
+    "taskId": "650000000000000000001000",
+    "actorId": "650000000000000000000001",
+    "title": "You were assigned to a task",
+    "payload": {
+      "title": "Implement refresh token rotation"
+    },
+    "readAt": "2026-08-02T09:00:00.000Z",
+    "expiresAt": "2026-09-01T09:00:00.000Z",
+    "createdAt": "2026-08-01T09:00:00.000Z",
+    "updatedAt": "2026-08-01T09:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000005002",
+    "userId": "650000000000000000000004",
+    "type": "task_assigned",
+    "taskId": "650000000000000000001001",
+    "actorId": "650000000000000000000002",
+    "title": "You were assigned to a task",
+    "payload": {
+      "title": "Add compound index on tasks.assignees"
+    },
+    "readAt": null,
+    "expiresAt": null,
+    "createdAt": "2026-08-01T10:00:00.000Z",
+    "updatedAt": "2026-08-01T10:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000005003",
+    "userId": "650000000000000000000005",
+    "type": "task_assigned",
+    "taskId": "650000000000000000001002",
+    "actorId": "650000000000000000000002",
+    "title": "You were assigned to a task",
+    "payload": {
+      "title": "Write cache invalidation tests"
+    },
+    "readAt": null,
+    "expiresAt": null,
+    "createdAt": "2026-08-01T11:00:00.000Z",
+    "updatedAt": "2026-08-01T11:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000005004",
+    "userId": "650000000000000000000003",
+    "type": "task_assigned",
+    "taskId": "650000000000000000001003",
+    "actorId": "650000000000000000000001",
+    "title": "You were assigned to a task",
+    "payload": {
+      "title": "Harden NoSQL injection sanitizer"
+    },
+    "readAt": "2026-08-02T12:00:00.000Z",
+    "expiresAt": "2026-09-01T12:00:00.000Z",
+    "createdAt": "2026-08-01T12:00:00.000Z",
+    "updatedAt": "2026-08-01T12:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000005005",
+    "userId": "650000000000000000000004",
+    "type": "task_assigned",
+    "taskId": "650000000000000000001004",
+    "actorId": "650000000000000000000002",
+    "title": "You were assigned to a task",
+    "payload": {
+      "title": "Document aggregation pipelines"
+    },
+    "readAt": null,
+    "expiresAt": null,
+    "createdAt": "2026-08-01T13:00:00.000Z",
+    "updatedAt": "2026-08-01T13:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000005006",
+    "userId": "650000000000000000000005",
+    "type": "task_assigned",
+    "taskId": "650000000000000000001004",
+    "actorId": "650000000000000000000002",
+    "title": "You were assigned to a task",
+    "payload": {
+      "title": "Document aggregation pipelines"
+    },
+    "readAt": null,
+    "expiresAt": null,
+    "createdAt": "2026-08-01T13:00:00.000Z",
+    "updatedAt": "2026-08-01T13:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000005007",
+    "userId": "650000000000000000000005",
+    "type": "task_assigned",
+    "taskId": "650000000000000000001005",
+    "actorId": "650000000000000000000002",
+    "title": "You were assigned to a task",
+    "payload": {
+      "title": "Set up BullMQ dead letter queue"
+    },
+    "readAt": null,
+    "expiresAt": null,
+    "createdAt": "2026-08-01T14:00:00.000Z",
+    "updatedAt": "2026-08-01T14:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000005008",
+    "userId": "650000000000000000000003",
+    "type": "task_assigned",
+    "taskId": "650000000000000000001006",
+    "actorId": "650000000000000000000001",
+    "title": "You were assigned to a task",
+    "payload": {
+      "title": "Migrate logging to structured JSON"
+    },
+    "readAt": "2026-08-02T15:00:00.000Z",
+    "expiresAt": "2026-09-01T15:00:00.000Z",
+    "createdAt": "2026-08-01T15:00:00.000Z",
+    "updatedAt": "2026-08-01T15:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000005009",
+    "userId": "650000000000000000000004",
+    "type": "task_assigned",
+    "taskId": "650000000000000000001007",
+    "actorId": "650000000000000000000002",
+    "title": "You were assigned to a task",
+    "payload": {
+      "title": "Add health check to Dockerfile"
+    },
+    "readAt": null,
+    "expiresAt": null,
+    "createdAt": "2026-08-01T16:00:00.000Z",
+    "updatedAt": "2026-08-01T16:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000005010",
+    "userId": "650000000000000000000005",
+    "type": "task_assigned",
+    "taskId": "650000000000000000001008",
+    "actorId": "650000000000000000000002",
+    "title": "You were assigned to a task",
+    "payload": {
+      "title": "Investigate slow task list query"
+    },
+    "readAt": null,
+    "expiresAt": null,
+    "createdAt": "2026-08-01T17:00:00.000Z",
+    "updatedAt": "2026-08-01T17:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000005011",
+    "userId": "650000000000000000000003",
+    "type": "task_assigned",
+    "taskId": "650000000000000000001008",
+    "actorId": "650000000000000000000002",
+    "title": "You were assigned to a task",
+    "payload": {
+      "title": "Investigate slow task list query"
+    },
+    "readAt": null,
+    "expiresAt": null,
+    "createdAt": "2026-08-01T17:00:00.000Z",
+    "updatedAt": "2026-08-01T17:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000005012",
+    "userId": "650000000000000000000003",
+    "type": "task_assigned",
+    "taskId": "650000000000000000001009",
+    "actorId": "650000000000000000000001",
+    "title": "You were assigned to a task",
+    "payload": {
+      "title": "Rotate JWT signing secrets"
+    },
+    "readAt": "2026-08-02T18:00:00.000Z",
+    "expiresAt": "2026-09-01T18:00:00.000Z",
+    "createdAt": "2026-08-01T18:00:00.000Z",
+    "updatedAt": "2026-08-01T18:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000005013",
+    "userId": "650000000000000000000004",
+    "type": "task_assigned",
+    "taskId": "650000000000000000001010",
+    "actorId": "650000000000000000000002",
+    "title": "You were assigned to a task",
+    "payload": {
+      "title": "Add pagination to comments endpoint"
+    },
+    "readAt": null,
+    "expiresAt": null,
+    "createdAt": "2026-08-01T19:00:00.000Z",
+    "updatedAt": "2026-08-01T19:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000005014",
+    "userId": "650000000000000000000005",
+    "type": "task_assigned",
+    "taskId": "650000000000000000001011",
+    "actorId": "650000000000000000000002",
+    "title": "You were assigned to a task",
+    "payload": {
+      "title": "Configure RabbitMQ topic exchange"
+    },
+    "readAt": null,
+    "expiresAt": null,
+    "createdAt": "2026-08-01T20:00:00.000Z",
+    "updatedAt": "2026-08-01T20:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000005015",
+    "userId": "650000000000000000000003",
+    "type": "task_assigned",
+    "taskId": "650000000000000000001012",
+    "actorId": "650000000000000000000001",
+    "title": "You were assigned to a task",
+    "payload": {
+      "title": "Fix timezone handling on due dates"
+    },
+    "readAt": "2026-08-02T21:00:00.000Z",
+    "expiresAt": "2026-09-01T21:00:00.000Z",
+    "createdAt": "2026-08-01T21:00:00.000Z",
+    "updatedAt": "2026-08-01T21:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000005016",
+    "userId": "650000000000000000000004",
+    "type": "task_assigned",
+    "taskId": "650000000000000000001012",
+    "actorId": "650000000000000000000001",
+    "title": "You were assigned to a task",
+    "payload": {
+      "title": "Fix timezone handling on due dates"
+    },
+    "readAt": "2026-08-02T21:00:00.000Z",
+    "expiresAt": "2026-09-01T21:00:00.000Z",
+    "createdAt": "2026-08-01T21:00:00.000Z",
+    "updatedAt": "2026-08-01T21:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000005017",
+    "userId": "650000000000000000000004",
+    "type": "task_assigned",
+    "taskId": "650000000000000000001013",
+    "actorId": "650000000000000000000002",
+    "title": "You were assigned to a task",
+    "payload": {
+      "title": "Add rate limit for write endpoints"
+    },
+    "readAt": null,
+    "expiresAt": null,
+    "createdAt": "2026-08-01T22:00:00.000Z",
+    "updatedAt": "2026-08-01T22:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000005018",
+    "userId": "650000000000000000000005",
+    "type": "task_assigned",
+    "taskId": "650000000000000000001014",
+    "actorId": "650000000000000000000002",
+    "title": "You were assigned to a task",
+    "payload": {
+      "title": "Review RBAC policy matrix"
+    },
+    "readAt": null,
+    "expiresAt": null,
+    "createdAt": "2026-08-01T23:00:00.000Z",
+    "updatedAt": "2026-08-01T23:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000005019",
+    "userId": "650000000000000000000003",
+    "type": "task_assigned",
+    "taskId": "650000000000000000001015",
+    "actorId": "650000000000000000000001",
+    "title": "You were assigned to a task",
+    "payload": {
+      "title": "Backfill task history for legacy tasks"
+    },
+    "readAt": "2026-08-03T00:00:00.000Z",
+    "expiresAt": "2026-09-02T00:00:00.000Z",
+    "createdAt": "2026-08-02T00:00:00.000Z",
+    "updatedAt": "2026-08-02T00:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000005020",
+    "userId": "650000000000000000000004",
+    "type": "task_assigned",
+    "taskId": "650000000000000000001016",
+    "actorId": "650000000000000000000002",
+    "title": "You were assigned to a task",
+    "payload": {
+      "title": "Enable MongoDB Atlas PITR backups"
+    },
+    "readAt": null,
+    "expiresAt": null,
+    "createdAt": "2026-08-02T01:00:00.000Z",
+    "updatedAt": "2026-08-02T01:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000005021",
+    "userId": "650000000000000000000005",
+    "type": "task_assigned",
+    "taskId": "650000000000000000001016",
+    "actorId": "650000000000000000000002",
+    "title": "You were assigned to a task",
+    "payload": {
+      "title": "Enable MongoDB Atlas PITR backups"
+    },
+    "readAt": null,
+    "expiresAt": null,
+    "createdAt": "2026-08-02T01:00:00.000Z",
+    "updatedAt": "2026-08-02T01:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000005022",
+    "userId": "650000000000000000000005",
+    "type": "task_assigned",
+    "taskId": "650000000000000000001017",
+    "actorId": "650000000000000000000002",
+    "title": "You were assigned to a task",
+    "payload": {
+      "title": "Add text search to task titles"
+    },
+    "readAt": null,
+    "expiresAt": null,
+    "createdAt": "2026-08-02T02:00:00.000Z",
+    "updatedAt": "2026-08-02T02:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000005023",
+    "userId": "650000000000000000000003",
+    "type": "task_assigned",
+    "taskId": "650000000000000000001018",
+    "actorId": "650000000000000000000001",
+    "title": "You were assigned to a task",
+    "payload": {
+      "title": "Reduce Docker image size"
+    },
+    "readAt": "2026-08-03T03:00:00.000Z",
+    "expiresAt": "2026-09-02T03:00:00.000Z",
+    "createdAt": "2026-08-02T03:00:00.000Z",
+    "updatedAt": "2026-08-02T03:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000005024",
+    "userId": "650000000000000000000004",
+    "type": "task_assigned",
+    "taskId": "650000000000000000001019",
+    "actorId": "650000000000000000000002",
+    "title": "You were assigned to a task",
+    "payload": {
+      "title": "Wire up GitHub Actions cache"
+    },
+    "readAt": null,
+    "expiresAt": null,
+    "createdAt": "2026-08-02T04:00:00.000Z",
+    "updatedAt": "2026-08-02T04:00:00.000Z"
+  }
+]

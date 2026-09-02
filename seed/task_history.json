@@ -1,0 +1,1154 @@
+[
+  {
+    "_id": "650000000000000000003000",
+    "taskId": "650000000000000000001000",
+    "actorId": "650000000000000000000001",
+    "action": "created",
+    "newValue": {
+      "title": "Implement refresh token rotation",
+      "status": "todo",
+      "priority": "low"
+    },
+    "createdAt": "2026-08-01T09:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003001",
+    "taskId": "650000000000000000001000",
+    "actorId": "650000000000000000000001",
+    "action": "assigned",
+    "field": "assignees",
+    "newValue": "650000000000000000000003",
+    "createdAt": "2026-08-01T09:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003002",
+    "taskId": "650000000000000000001000",
+    "actorId": "650000000000000000000001",
+    "action": "assigned",
+    "field": "assignees",
+    "newValue": "650000000000000000000004",
+    "createdAt": "2026-08-01T09:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003003",
+    "taskId": "650000000000000000001001",
+    "actorId": "650000000000000000000002",
+    "action": "created",
+    "newValue": {
+      "title": "Add compound index on tasks.assignees",
+      "status": "todo",
+      "priority": "medium"
+    },
+    "createdAt": "2026-08-01T10:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003004",
+    "taskId": "650000000000000000001001",
+    "actorId": "650000000000000000000002",
+    "action": "assigned",
+    "field": "assignees",
+    "newValue": "650000000000000000000004",
+    "createdAt": "2026-08-01T10:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003005",
+    "taskId": "650000000000000000001001",
+    "actorId": "650000000000000000000004",
+    "action": "status_changed",
+    "field": "status",
+    "oldValue": "todo",
+    "newValue": "in_progress",
+    "createdAt": "2026-08-01T11:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003006",
+    "taskId": "650000000000000000001002",
+    "actorId": "650000000000000000000002",
+    "action": "created",
+    "newValue": {
+      "title": "Write cache invalidation tests",
+      "status": "todo",
+      "priority": "high"
+    },
+    "createdAt": "2026-08-01T11:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003007",
+    "taskId": "650000000000000000001002",
+    "actorId": "650000000000000000000002",
+    "action": "assigned",
+    "field": "assignees",
+    "newValue": "650000000000000000000005",
+    "createdAt": "2026-08-01T11:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003008",
+    "taskId": "650000000000000000001002",
+    "actorId": "650000000000000000000005",
+    "action": "status_changed",
+    "field": "status",
+    "oldValue": "todo",
+    "newValue": "in_review",
+    "createdAt": "2026-08-01T12:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003009",
+    "taskId": "650000000000000000001003",
+    "actorId": "650000000000000000000001",
+    "action": "created",
+    "newValue": {
+      "title": "Harden NoSQL injection sanitizer",
+      "status": "todo",
+      "priority": "critical"
+    },
+    "createdAt": "2026-08-01T12:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003010",
+    "taskId": "650000000000000000001003",
+    "actorId": "650000000000000000000001",
+    "action": "assigned",
+    "field": "assignees",
+    "newValue": "650000000000000000000003",
+    "createdAt": "2026-08-01T12:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003011",
+    "taskId": "650000000000000000001003",
+    "actorId": "650000000000000000000003",
+    "action": "status_changed",
+    "field": "status",
+    "oldValue": "todo",
+    "newValue": "done",
+    "createdAt": "2026-08-01T13:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003012",
+    "taskId": "650000000000000000001003",
+    "actorId": "650000000000000000000002",
+    "action": "updated",
+    "field": "priority",
+    "oldValue": "high",
+    "newValue": "critical",
+    "createdAt": "2026-08-01T13:30:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003013",
+    "taskId": "650000000000000000001004",
+    "actorId": "650000000000000000000002",
+    "action": "created",
+    "newValue": {
+      "title": "Document aggregation pipelines",
+      "status": "todo",
+      "priority": "low"
+    },
+    "createdAt": "2026-08-01T13:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003014",
+    "taskId": "650000000000000000001004",
+    "actorId": "650000000000000000000002",
+    "action": "assigned",
+    "field": "assignees",
+    "newValue": "650000000000000000000004",
+    "createdAt": "2026-08-01T13:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003015",
+    "taskId": "650000000000000000001004",
+    "actorId": "650000000000000000000002",
+    "action": "assigned",
+    "field": "assignees",
+    "newValue": "650000000000000000000005",
+    "createdAt": "2026-08-01T13:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003016",
+    "taskId": "650000000000000000001004",
+    "actorId": "650000000000000000000004",
+    "action": "status_changed",
+    "field": "status",
+    "oldValue": "todo",
+    "newValue": "cancelled",
+    "createdAt": "2026-08-01T14:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003017",
+    "taskId": "650000000000000000001005",
+    "actorId": "650000000000000000000002",
+    "action": "created",
+    "newValue": {
+      "title": "Set up BullMQ dead letter queue",
+      "status": "todo",
+      "priority": "medium"
+    },
+    "createdAt": "2026-08-01T14:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003018",
+    "taskId": "650000000000000000001005",
+    "actorId": "650000000000000000000002",
+    "action": "assigned",
+    "field": "assignees",
+    "newValue": "650000000000000000000005",
+    "createdAt": "2026-08-01T14:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003019",
+    "taskId": "650000000000000000001006",
+    "actorId": "650000000000000000000001",
+    "action": "created",
+    "newValue": {
+      "title": "Migrate logging to structured JSON",
+      "status": "todo",
+      "priority": "high"
+    },
+    "createdAt": "2026-08-01T15:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003020",
+    "taskId": "650000000000000000001006",
+    "actorId": "650000000000000000000001",
+    "action": "assigned",
+    "field": "assignees",
+    "newValue": "650000000000000000000003",
+    "createdAt": "2026-08-01T15:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003021",
+    "taskId": "650000000000000000001006",
+    "actorId": "650000000000000000000003",
+    "action": "status_changed",
+    "field": "status",
+    "oldValue": "todo",
+    "newValue": "in_progress",
+    "createdAt": "2026-08-01T16:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003022",
+    "taskId": "650000000000000000001007",
+    "actorId": "650000000000000000000002",
+    "action": "created",
+    "newValue": {
+      "title": "Add health check to Dockerfile",
+      "status": "todo",
+      "priority": "critical"
+    },
+    "createdAt": "2026-08-01T16:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003023",
+    "taskId": "650000000000000000001007",
+    "actorId": "650000000000000000000002",
+    "action": "assigned",
+    "field": "assignees",
+    "newValue": "650000000000000000000004",
+    "createdAt": "2026-08-01T16:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003024",
+    "taskId": "650000000000000000001007",
+    "actorId": "650000000000000000000004",
+    "action": "status_changed",
+    "field": "status",
+    "oldValue": "todo",
+    "newValue": "in_review",
+    "createdAt": "2026-08-01T17:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003025",
+    "taskId": "650000000000000000001007",
+    "actorId": "650000000000000000000002",
+    "action": "updated",
+    "field": "priority",
+    "oldValue": "high",
+    "newValue": "critical",
+    "createdAt": "2026-08-01T17:30:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003026",
+    "taskId": "650000000000000000001008",
+    "actorId": "650000000000000000000002",
+    "action": "created",
+    "newValue": {
+      "title": "Investigate slow task list query",
+      "status": "todo",
+      "priority": "low"
+    },
+    "createdAt": "2026-08-01T17:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003027",
+    "taskId": "650000000000000000001008",
+    "actorId": "650000000000000000000002",
+    "action": "assigned",
+    "field": "assignees",
+    "newValue": "650000000000000000000005",
+    "createdAt": "2026-08-01T17:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003028",
+    "taskId": "650000000000000000001008",
+    "actorId": "650000000000000000000002",
+    "action": "assigned",
+    "field": "assignees",
+    "newValue": "650000000000000000000003",
+    "createdAt": "2026-08-01T17:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003029",
+    "taskId": "650000000000000000001008",
+    "actorId": "650000000000000000000005",
+    "action": "status_changed",
+    "field": "status",
+    "oldValue": "todo",
+    "newValue": "done",
+    "createdAt": "2026-08-01T18:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003030",
+    "taskId": "650000000000000000001009",
+    "actorId": "650000000000000000000001",
+    "action": "created",
+    "newValue": {
+      "title": "Rotate JWT signing secrets",
+      "status": "todo",
+      "priority": "medium"
+    },
+    "createdAt": "2026-08-01T18:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003031",
+    "taskId": "650000000000000000001009",
+    "actorId": "650000000000000000000001",
+    "action": "assigned",
+    "field": "assignees",
+    "newValue": "650000000000000000000003",
+    "createdAt": "2026-08-01T18:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003032",
+    "taskId": "650000000000000000001009",
+    "actorId": "650000000000000000000003",
+    "action": "status_changed",
+    "field": "status",
+    "oldValue": "todo",
+    "newValue": "cancelled",
+    "createdAt": "2026-08-01T19:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003033",
+    "taskId": "650000000000000000001010",
+    "actorId": "650000000000000000000002",
+    "action": "created",
+    "newValue": {
+      "title": "Add pagination to comments endpoint",
+      "status": "todo",
+      "priority": "high"
+    },
+    "createdAt": "2026-08-01T19:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003034",
+    "taskId": "650000000000000000001010",
+    "actorId": "650000000000000000000002",
+    "action": "assigned",
+    "field": "assignees",
+    "newValue": "650000000000000000000004",
+    "createdAt": "2026-08-01T19:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003035",
+    "taskId": "650000000000000000001011",
+    "actorId": "650000000000000000000002",
+    "action": "created",
+    "newValue": {
+      "title": "Configure RabbitMQ topic exchange",
+      "status": "todo",
+      "priority": "critical"
+    },
+    "createdAt": "2026-08-01T20:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003036",
+    "taskId": "650000000000000000001011",
+    "actorId": "650000000000000000000002",
+    "action": "assigned",
+    "field": "assignees",
+    "newValue": "650000000000000000000005",
+    "createdAt": "2026-08-01T20:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003037",
+    "taskId": "650000000000000000001011",
+    "actorId": "650000000000000000000005",
+    "action": "status_changed",
+    "field": "status",
+    "oldValue": "todo",
+    "newValue": "in_progress",
+    "createdAt": "2026-08-01T21:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003038",
+    "taskId": "650000000000000000001011",
+    "actorId": "650000000000000000000002",
+    "action": "updated",
+    "field": "priority",
+    "oldValue": "high",
+    "newValue": "critical",
+    "createdAt": "2026-08-01T21:30:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003039",
+    "taskId": "650000000000000000001012",
+    "actorId": "650000000000000000000001",
+    "action": "created",
+    "newValue": {
+      "title": "Fix timezone handling on due dates",
+      "status": "todo",
+      "priority": "low"
+    },
+    "createdAt": "2026-08-01T21:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003040",
+    "taskId": "650000000000000000001012",
+    "actorId": "650000000000000000000001",
+    "action": "assigned",
+    "field": "assignees",
+    "newValue": "650000000000000000000003",
+    "createdAt": "2026-08-01T21:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003041",
+    "taskId": "650000000000000000001012",
+    "actorId": "650000000000000000000001",
+    "action": "assigned",
+    "field": "assignees",
+    "newValue": "650000000000000000000004",
+    "createdAt": "2026-08-01T21:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003042",
+    "taskId": "650000000000000000001012",
+    "actorId": "650000000000000000000003",
+    "action": "status_changed",
+    "field": "status",
+    "oldValue": "todo",
+    "newValue": "in_review",
+    "createdAt": "2026-08-01T22:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003043",
+    "taskId": "650000000000000000001013",
+    "actorId": "650000000000000000000002",
+    "action": "created",
+    "newValue": {
+      "title": "Add rate limit for write endpoints",
+      "status": "todo",
+      "priority": "medium"
+    },
+    "createdAt": "2026-08-01T22:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003044",
+    "taskId": "650000000000000000001013",
+    "actorId": "650000000000000000000002",
+    "action": "assigned",
+    "field": "assignees",
+    "newValue": "650000000000000000000004",
+    "createdAt": "2026-08-01T22:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003045",
+    "taskId": "650000000000000000001013",
+    "actorId": "650000000000000000000004",
+    "action": "status_changed",
+    "field": "status",
+    "oldValue": "todo",
+    "newValue": "done",
+    "createdAt": "2026-08-01T23:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003046",
+    "taskId": "650000000000000000001014",
+    "actorId": "650000000000000000000002",
+    "action": "created",
+    "newValue": {
+      "title": "Review RBAC policy matrix",
+      "status": "todo",
+      "priority": "high"
+    },
+    "createdAt": "2026-08-01T23:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003047",
+    "taskId": "650000000000000000001014",
+    "actorId": "650000000000000000000002",
+    "action": "assigned",
+    "field": "assignees",
+    "newValue": "650000000000000000000005",
+    "createdAt": "2026-08-01T23:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003048",
+    "taskId": "650000000000000000001014",
+    "actorId": "650000000000000000000005",
+    "action": "status_changed",
+    "field": "status",
+    "oldValue": "todo",
+    "newValue": "cancelled",
+    "createdAt": "2026-08-02T00:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003049",
+    "taskId": "650000000000000000001015",
+    "actorId": "650000000000000000000001",
+    "action": "created",
+    "newValue": {
+      "title": "Backfill task history for legacy tasks",
+      "status": "todo",
+      "priority": "critical"
+    },
+    "createdAt": "2026-08-02T00:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003050",
+    "taskId": "650000000000000000001015",
+    "actorId": "650000000000000000000001",
+    "action": "assigned",
+    "field": "assignees",
+    "newValue": "650000000000000000000003",
+    "createdAt": "2026-08-02T00:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003051",
+    "taskId": "650000000000000000001015",
+    "actorId": "650000000000000000000002",
+    "action": "updated",
+    "field": "priority",
+    "oldValue": "high",
+    "newValue": "critical",
+    "createdAt": "2026-08-02T01:30:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003052",
+    "taskId": "650000000000000000001016",
+    "actorId": "650000000000000000000002",
+    "action": "created",
+    "newValue": {
+      "title": "Enable MongoDB Atlas PITR backups",
+      "status": "todo",
+      "priority": "low"
+    },
+    "createdAt": "2026-08-02T01:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003053",
+    "taskId": "650000000000000000001016",
+    "actorId": "650000000000000000000002",
+    "action": "assigned",
+    "field": "assignees",
+    "newValue": "650000000000000000000004",
+    "createdAt": "2026-08-02T01:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003054",
+    "taskId": "650000000000000000001016",
+    "actorId": "650000000000000000000002",
+    "action": "assigned",
+    "field": "assignees",
+    "newValue": "650000000000000000000005",
+    "createdAt": "2026-08-02T01:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003055",
+    "taskId": "650000000000000000001016",
+    "actorId": "650000000000000000000004",
+    "action": "status_changed",
+    "field": "status",
+    "oldValue": "todo",
+    "newValue": "in_progress",
+    "createdAt": "2026-08-02T02:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003056",
+    "taskId": "650000000000000000001017",
+    "actorId": "650000000000000000000002",
+    "action": "created",
+    "newValue": {
+      "title": "Add text search to task titles",
+      "status": "todo",
+      "priority": "medium"
+    },
+    "createdAt": "2026-08-02T02:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003057",
+    "taskId": "650000000000000000001017",
+    "actorId": "650000000000000000000002",
+    "action": "assigned",
+    "field": "assignees",
+    "newValue": "650000000000000000000005",
+    "createdAt": "2026-08-02T02:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003058",
+    "taskId": "650000000000000000001017",
+    "actorId": "650000000000000000000005",
+    "action": "status_changed",
+    "field": "status",
+    "oldValue": "todo",
+    "newValue": "in_review",
+    "createdAt": "2026-08-02T03:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003059",
+    "taskId": "650000000000000000001018",
+    "actorId": "650000000000000000000001",
+    "action": "created",
+    "newValue": {
+      "title": "Reduce Docker image size",
+      "status": "todo",
+      "priority": "high"
+    },
+    "createdAt": "2026-08-02T03:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003060",
+    "taskId": "650000000000000000001018",
+    "actorId": "650000000000000000000001",
+    "action": "assigned",
+    "field": "assignees",
+    "newValue": "650000000000000000000003",
+    "createdAt": "2026-08-02T03:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003061",
+    "taskId": "650000000000000000001018",
+    "actorId": "650000000000000000000003",
+    "action": "status_changed",
+    "field": "status",
+    "oldValue": "todo",
+    "newValue": "done",
+    "createdAt": "2026-08-02T04:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003062",
+    "taskId": "650000000000000000001019",
+    "actorId": "650000000000000000000002",
+    "action": "created",
+    "newValue": {
+      "title": "Wire up GitHub Actions cache",
+      "status": "todo",
+      "priority": "critical"
+    },
+    "createdAt": "2026-08-02T04:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003063",
+    "taskId": "650000000000000000001019",
+    "actorId": "650000000000000000000002",
+    "action": "assigned",
+    "field": "assignees",
+    "newValue": "650000000000000000000004",
+    "createdAt": "2026-08-02T04:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003064",
+    "taskId": "650000000000000000001019",
+    "actorId": "650000000000000000000004",
+    "action": "status_changed",
+    "field": "status",
+    "oldValue": "todo",
+    "newValue": "cancelled",
+    "createdAt": "2026-08-02T05:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003065",
+    "taskId": "650000000000000000001019",
+    "actorId": "650000000000000000000002",
+    "action": "updated",
+    "field": "priority",
+    "oldValue": "high",
+    "newValue": "critical",
+    "createdAt": "2026-08-02T05:30:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003066",
+    "taskId": "650000000000000000001020",
+    "actorId": "650000000000000000000002",
+    "action": "created",
+    "newValue": {
+      "title": "Add graceful shutdown to worker",
+      "status": "todo",
+      "priority": "low"
+    },
+    "createdAt": "2026-08-02T05:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003067",
+    "taskId": "650000000000000000001020",
+    "actorId": "650000000000000000000002",
+    "action": "assigned",
+    "field": "assignees",
+    "newValue": "650000000000000000000005",
+    "createdAt": "2026-08-02T05:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003068",
+    "taskId": "650000000000000000001020",
+    "actorId": "650000000000000000000002",
+    "action": "assigned",
+    "field": "assignees",
+    "newValue": "650000000000000000000003",
+    "createdAt": "2026-08-02T05:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003069",
+    "taskId": "650000000000000000001021",
+    "actorId": "650000000000000000000001",
+    "action": "created",
+    "newValue": {
+      "title": "Audit dependency vulnerabilities",
+      "status": "todo",
+      "priority": "medium"
+    },
+    "createdAt": "2026-08-02T06:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003070",
+    "taskId": "650000000000000000001021",
+    "actorId": "650000000000000000000001",
+    "action": "assigned",
+    "field": "assignees",
+    "newValue": "650000000000000000000003",
+    "createdAt": "2026-08-02T06:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003071",
+    "taskId": "650000000000000000001021",
+    "actorId": "650000000000000000000003",
+    "action": "status_changed",
+    "field": "status",
+    "oldValue": "todo",
+    "newValue": "in_progress",
+    "createdAt": "2026-08-02T07:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003072",
+    "taskId": "650000000000000000001022",
+    "actorId": "650000000000000000000002",
+    "action": "created",
+    "newValue": {
+      "title": "Design notification TTL strategy",
+      "status": "todo",
+      "priority": "high"
+    },
+    "createdAt": "2026-08-02T07:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003073",
+    "taskId": "650000000000000000001022",
+    "actorId": "650000000000000000000002",
+    "action": "assigned",
+    "field": "assignees",
+    "newValue": "650000000000000000000004",
+    "createdAt": "2026-08-02T07:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003074",
+    "taskId": "650000000000000000001022",
+    "actorId": "650000000000000000000004",
+    "action": "status_changed",
+    "field": "status",
+    "oldValue": "todo",
+    "newValue": "in_review",
+    "createdAt": "2026-08-02T08:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003075",
+    "taskId": "650000000000000000001023",
+    "actorId": "650000000000000000000002",
+    "action": "created",
+    "newValue": {
+      "title": "Add X-Cache response header",
+      "status": "todo",
+      "priority": "critical"
+    },
+    "createdAt": "2026-08-02T08:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003076",
+    "taskId": "650000000000000000001023",
+    "actorId": "650000000000000000000002",
+    "action": "assigned",
+    "field": "assignees",
+    "newValue": "650000000000000000000005",
+    "createdAt": "2026-08-02T08:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003077",
+    "taskId": "650000000000000000001023",
+    "actorId": "650000000000000000000005",
+    "action": "status_changed",
+    "field": "status",
+    "oldValue": "todo",
+    "newValue": "done",
+    "createdAt": "2026-08-02T09:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003078",
+    "taskId": "650000000000000000001023",
+    "actorId": "650000000000000000000002",
+    "action": "updated",
+    "field": "priority",
+    "oldValue": "high",
+    "newValue": "critical",
+    "createdAt": "2026-08-02T09:30:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003079",
+    "taskId": "650000000000000000001024",
+    "actorId": "650000000000000000000001",
+    "action": "created",
+    "newValue": {
+      "title": "Load test the task list endpoint",
+      "status": "todo",
+      "priority": "low"
+    },
+    "createdAt": "2026-08-02T09:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003080",
+    "taskId": "650000000000000000001024",
+    "actorId": "650000000000000000000001",
+    "action": "assigned",
+    "field": "assignees",
+    "newValue": "650000000000000000000003",
+    "createdAt": "2026-08-02T09:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003081",
+    "taskId": "650000000000000000001024",
+    "actorId": "650000000000000000000001",
+    "action": "assigned",
+    "field": "assignees",
+    "newValue": "650000000000000000000004",
+    "createdAt": "2026-08-02T09:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003082",
+    "taskId": "650000000000000000001024",
+    "actorId": "650000000000000000000003",
+    "action": "status_changed",
+    "field": "status",
+    "oldValue": "todo",
+    "newValue": "cancelled",
+    "createdAt": "2026-08-02T10:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003083",
+    "taskId": "650000000000000000001025",
+    "actorId": "650000000000000000000002",
+    "action": "created",
+    "newValue": {
+      "title": "Write deployment runbook",
+      "status": "todo",
+      "priority": "medium"
+    },
+    "createdAt": "2026-08-02T10:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003084",
+    "taskId": "650000000000000000001025",
+    "actorId": "650000000000000000000002",
+    "action": "assigned",
+    "field": "assignees",
+    "newValue": "650000000000000000000004",
+    "createdAt": "2026-08-02T10:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003085",
+    "taskId": "650000000000000000001026",
+    "actorId": "650000000000000000000002",
+    "action": "created",
+    "newValue": {
+      "title": "Add soft delete to comments",
+      "status": "todo",
+      "priority": "high"
+    },
+    "createdAt": "2026-08-02T11:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003086",
+    "taskId": "650000000000000000001026",
+    "actorId": "650000000000000000000002",
+    "action": "assigned",
+    "field": "assignees",
+    "newValue": "650000000000000000000005",
+    "createdAt": "2026-08-02T11:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003087",
+    "taskId": "650000000000000000001026",
+    "actorId": "650000000000000000000005",
+    "action": "status_changed",
+    "field": "status",
+    "oldValue": "todo",
+    "newValue": "in_progress",
+    "createdAt": "2026-08-02T12:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003088",
+    "taskId": "650000000000000000001027",
+    "actorId": "650000000000000000000001",
+    "action": "created",
+    "newValue": {
+      "title": "Instrument slow query logging",
+      "status": "todo",
+      "priority": "critical"
+    },
+    "createdAt": "2026-08-02T12:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003089",
+    "taskId": "650000000000000000001027",
+    "actorId": "650000000000000000000001",
+    "action": "assigned",
+    "field": "assignees",
+    "newValue": "650000000000000000000003",
+    "createdAt": "2026-08-02T12:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003090",
+    "taskId": "650000000000000000001027",
+    "actorId": "650000000000000000000003",
+    "action": "status_changed",
+    "field": "status",
+    "oldValue": "todo",
+    "newValue": "in_review",
+    "createdAt": "2026-08-02T13:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003091",
+    "taskId": "650000000000000000001027",
+    "actorId": "650000000000000000000002",
+    "action": "updated",
+    "field": "priority",
+    "oldValue": "high",
+    "newValue": "critical",
+    "createdAt": "2026-08-02T13:30:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003092",
+    "taskId": "650000000000000000001028",
+    "actorId": "650000000000000000000002",
+    "action": "created",
+    "newValue": {
+      "title": "Validate ObjectId route params",
+      "status": "todo",
+      "priority": "low"
+    },
+    "createdAt": "2026-08-02T13:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003093",
+    "taskId": "650000000000000000001028",
+    "actorId": "650000000000000000000002",
+    "action": "assigned",
+    "field": "assignees",
+    "newValue": "650000000000000000000004",
+    "createdAt": "2026-08-02T13:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003094",
+    "taskId": "650000000000000000001028",
+    "actorId": "650000000000000000000002",
+    "action": "assigned",
+    "field": "assignees",
+    "newValue": "650000000000000000000005",
+    "createdAt": "2026-08-02T13:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003095",
+    "taskId": "650000000000000000001028",
+    "actorId": "650000000000000000000004",
+    "action": "status_changed",
+    "field": "status",
+    "oldValue": "todo",
+    "newValue": "done",
+    "createdAt": "2026-08-02T14:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003096",
+    "taskId": "650000000000000000001029",
+    "actorId": "650000000000000000000002",
+    "action": "created",
+    "newValue": {
+      "title": "Set up staging environment",
+      "status": "todo",
+      "priority": "medium"
+    },
+    "createdAt": "2026-08-02T14:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003097",
+    "taskId": "650000000000000000001029",
+    "actorId": "650000000000000000000002",
+    "action": "assigned",
+    "field": "assignees",
+    "newValue": "650000000000000000000005",
+    "createdAt": "2026-08-02T14:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003098",
+    "taskId": "650000000000000000001029",
+    "actorId": "650000000000000000000005",
+    "action": "status_changed",
+    "field": "status",
+    "oldValue": "todo",
+    "newValue": "cancelled",
+    "createdAt": "2026-08-02T15:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003099",
+    "taskId": "650000000000000000001000",
+    "actorId": "650000000000000000000002",
+    "action": "commented",
+    "createdAt": "2026-08-01T11:30:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003100",
+    "taskId": "650000000000000000001000",
+    "actorId": "650000000000000000000003",
+    "action": "commented",
+    "createdAt": "2026-08-01T11:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003101",
+    "taskId": "650000000000000000001002",
+    "actorId": "650000000000000000000005",
+    "action": "commented",
+    "createdAt": "2026-08-01T13:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003102",
+    "taskId": "650000000000000000001004",
+    "actorId": "650000000000000000000004",
+    "action": "commented",
+    "createdAt": "2026-08-01T15:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003103",
+    "taskId": "650000000000000000001006",
+    "actorId": "650000000000000000000002",
+    "action": "commented",
+    "createdAt": "2026-08-01T17:30:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003104",
+    "taskId": "650000000000000000001006",
+    "actorId": "650000000000000000000003",
+    "action": "commented",
+    "createdAt": "2026-08-01T17:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003105",
+    "taskId": "650000000000000000001008",
+    "actorId": "650000000000000000000005",
+    "action": "commented",
+    "createdAt": "2026-08-01T19:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003106",
+    "taskId": "650000000000000000001010",
+    "actorId": "650000000000000000000004",
+    "action": "commented",
+    "createdAt": "2026-08-01T21:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003107",
+    "taskId": "650000000000000000001012",
+    "actorId": "650000000000000000000002",
+    "action": "commented",
+    "createdAt": "2026-08-01T23:30:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003108",
+    "taskId": "650000000000000000001012",
+    "actorId": "650000000000000000000003",
+    "action": "commented",
+    "createdAt": "2026-08-01T23:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003109",
+    "taskId": "650000000000000000001014",
+    "actorId": "650000000000000000000005",
+    "action": "commented",
+    "createdAt": "2026-08-02T01:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003110",
+    "taskId": "650000000000000000001016",
+    "actorId": "650000000000000000000004",
+    "action": "commented",
+    "createdAt": "2026-08-02T03:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003111",
+    "taskId": "650000000000000000001018",
+    "actorId": "650000000000000000000002",
+    "action": "commented",
+    "createdAt": "2026-08-02T05:30:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003112",
+    "taskId": "650000000000000000001018",
+    "actorId": "650000000000000000000003",
+    "action": "commented",
+    "createdAt": "2026-08-02T05:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003113",
+    "taskId": "650000000000000000001020",
+    "actorId": "650000000000000000000005",
+    "action": "commented",
+    "createdAt": "2026-08-02T07:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003114",
+    "taskId": "650000000000000000001022",
+    "actorId": "650000000000000000000004",
+    "action": "commented",
+    "createdAt": "2026-08-02T09:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003115",
+    "taskId": "650000000000000000001024",
+    "actorId": "650000000000000000000002",
+    "action": "commented",
+    "createdAt": "2026-08-02T11:30:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003116",
+    "taskId": "650000000000000000001024",
+    "actorId": "650000000000000000000003",
+    "action": "commented",
+    "createdAt": "2026-08-02T11:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003117",
+    "taskId": "650000000000000000001026",
+    "actorId": "650000000000000000000005",
+    "action": "commented",
+    "createdAt": "2026-08-02T13:00:00.000Z"
+  },
+  {
+    "_id": "650000000000000000003118",
+    "taskId": "650000000000000000001028",
+    "actorId": "650000000000000000000004",
+    "action": "commented",
+    "createdAt": "2026-08-02T15:00:00.000Z"
+  }
+]
